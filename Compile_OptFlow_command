@@ -1,0 +1,1 @@
+g++ -I/usr/local/include optical_flow.cpp -L/usr/local/lib -lopencv_objdetect -lopencv_imgproc -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_videoio -lopencv_cudaobjdetect -lopencv_cudaimgproc -lopencv_cudawarping -lopencv_cudaarithm -lopencv_cudaoptflow   -o run_log.a
